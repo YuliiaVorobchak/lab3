@@ -1,0 +1,21 @@
+.DS_Store
+Thumbs.db
+
+# Ігноруємо залежності npm
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Ігноруємо кеш і логи
+.cache/
+logs/
+*.log
+
+# Ігноруємо файли IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Ігноруємо персональні налаштування
+.env
+.env.local
